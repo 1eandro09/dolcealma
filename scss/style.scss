@@ -27,3 +27,10 @@
         font-family: cursive;
         font-size: medium;
     }
+    footer{
+        display: flex;
+    padding: 15 45%;
+    height: 75px;
+    line-height: 75px;
+    background-color: $color-barra;
+    }
