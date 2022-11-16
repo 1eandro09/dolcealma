@@ -41,6 +41,10 @@ footer {
   line-height: 75px;
   background-color: #404040; }
 
+.foot {
+  text-align: center;
+  color: #f3e8e8f3; }
+
 * {
   margin: 0;
   padding: 0;
@@ -66,10 +70,3 @@ footer {
   text-align: center;
   font-family: cursive;
   font-size: medium; }
-
-footer {
-  display: flex;
-  padding: 15 45%;
-  height: 75px;
-  line-height: 75px;
-  background-color: #404040; }
