@@ -1,6 +1,7 @@
 @import"variables";
 nav {
     display: flex;
+    flex-wrap: nowrap;
     padding: 0 15%;
     height: 75px;
     line-height: 75px;
@@ -12,6 +13,9 @@ nav .navbar-nav {
     font-size: 28px;
     font-weight: 500;
     letter-spacing: .5px;
+    margin-top: 0;
+    white-space: nowrap;
+
 }
 nav .lista{
     display: flex;
@@ -44,5 +48,5 @@ nav .lista .nav-link{
 }
 
 @media(max-width: 675px){
-  
+
 }
