@@ -36,6 +36,7 @@ nav .lista .nav-link {
 
 footer {
   display: flex;
+  justify-content: center;
   padding: 0%;
   height: 75px;
   line-height: 75px;
@@ -70,3 +71,7 @@ footer {
   text-align: center;
   font-family: cursive;
   font-size: medium; }
+
+.iconos {
+  display: flex;
+  justify-content: center; }
