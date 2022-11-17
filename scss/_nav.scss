@@ -13,7 +13,6 @@ nav .navbar-nav {
     font-size: 28px;
     font-weight: 500;
     letter-spacing: .5px;
-    margin-top: 0;
     white-space: nowrap;
 
 }
@@ -48,5 +47,13 @@ nav .lista .nav-link{
 }
 
 @media(max-width: 675px){
-
+    nav .nav-lista{
+        display: grid;
+        position: relative;
+        background-color:$color-barra;
+        width: 100%;
+        left: 0;
+        z-index: -1;
+        transition: .6s;
+    }
 }
